@@ -1,0 +1,8 @@
+.btn-diabled{
+    background: grey;
+    color: rgb(66, 57, 57);
+} 
+.btn-default{
+    background-color: green;
+    color: white;
+}

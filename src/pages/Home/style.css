@@ -1,0 +1,15 @@
+.user-entry {
+    margin: auto;
+    padding-top: 5Vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.user-entry_input {
+    margin: auto;
+    width: 50%;
+    
+}
