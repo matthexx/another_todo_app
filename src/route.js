@@ -6,11 +6,15 @@ import {
 } from "react-router-dom";
 import Home from '../src/pages/Home'
 import Todo from '../src/pages/Todo'
+import Header from '../src/component/Header';
+import Footer from "./component/Footer";
+
 
 export default function App() {
   return (
     <Router>
       <div>
+        <Header />
         <Switch>
           <Route path="/todo">
             <Todo />
@@ -19,6 +23,7 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
