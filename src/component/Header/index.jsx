@@ -1,17 +1,21 @@
 import React from 'react';
+import {
+    Link
+  } from "react-router-dom";
 import './style.css';
 
 
-function Header() {
+function Header(props) {
 
     return (
         <div className="header">
+            
             <h3>
-                Todoist
+                <Link to="/">Todoist</Link>
             </h3>
-            <h5>
-                welcome Ajay
-            </h5>
+            {props.user ?<h5>
+                welcome {props.user}
+            </h5> : ''}
         </div>
     )
 }
